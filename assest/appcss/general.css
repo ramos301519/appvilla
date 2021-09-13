@@ -1,0 +1,32 @@
+.modal-backdrop {
+    /* background-color: rgba(0, 0, 0, .0001) !important;*/
+    background-color: transparent !important;
+}
+
+
+/*
+Campo requerido
+*/
+
+.required:before {
+    content: "*\00a0";
+    color: red;
+    margin-left: 2px
+}
+
+
+/*
+schecbutton
+*/
+
+.btn-default.btn-on.active {
+    background-color: #5BB75B;
+    color: #F6F6F5;
+    font-weight: bolder;
+}
+
+.btn-default.btn-off.active {
+    background-color: #00D590;
+    color: #F6F6F5;
+    font-weight: bolder;
+}
